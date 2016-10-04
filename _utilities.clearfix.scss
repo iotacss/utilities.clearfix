@@ -11,13 +11,14 @@
 
 // Options
 
-$iota-clearfix: true;
+$iota-clearfix            : true;
+$iota-clearfix-namespace  : 'cf' !default;
 
 
 
 
-.#{$iota-utility-namespace}cf:after,
-%#{$iota-utility-namespace}cf:after {
+.#{$iota-utility-namespace}#{$iota-clearfix-namespace}:after,
+%#{$iota-utility-namespace}#{$iota-clearfix-namespace}:after {
   content: "";
   display: table;
   clear: both;
