@@ -1,6 +1,6 @@
 {
   "name": "iotacss-clearfix",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Clearfix utility for iotaCSS",
   "main": "_utilities.clearfix.scss",
   "repository": {
