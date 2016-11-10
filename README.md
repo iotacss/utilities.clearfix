@@ -12,13 +12,13 @@ npm install --save iotacss-clearfix
 
 ### Options ###
 
-```
-$iota-clearfix-namespace: 'cf' !default;
+```sass
+$iota-utils-clearfix-namespace  : 'cf' !default;
 ```
 
 
 ### Classes ###
 
-```
+```css
 .u-cf
 ```

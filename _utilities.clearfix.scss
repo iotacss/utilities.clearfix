@@ -3,22 +3,26 @@
 
 
 
-// Dependencies
-//   Settings.Default
-
-
-
-
 // Options
 
-$iota-clearfix            : true;
-$iota-clearfix-namespace  : 'cf' !default;
+$iota-utils-clearfix            : true;
+
+$iota-utils-clearfix-namespace  : 'cf' !default;
 
 
 
 
-.#{$iota-utility-namespace}#{$iota-clearfix-namespace}:after,
-%#{$iota-utility-namespace}#{$iota-clearfix-namespace}:after {
+// Helper Local Variables
+
+$iota-utils-clearfix-var-clearfix: $iota-global-utilities-namespace + $iota-utils-clearfix-namespace;
+
+
+
+
+// Clearfix Utility
+
+.#{$iota-utils-clearfix-var-clearfix}:after,
+%#{$iota-utils-clearfix-var-clearfix}:after {
   content: "";
   display: table;
   clear: both;
